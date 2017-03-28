@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+
+<quests>
+  <quest
+    id='1'
+    name='Examle'
+    description='Example'
+    state = '0'
+    prerequisite ='0'><!-- 0 = no prerequisite-->
+    <task current ='0' complete='1'/>
+  </quest>
+ 
+</quests>
