@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+
+<quests>
+  <quest
+    id='1'
+    name='Hero'
+    description='This is the first quest of your journey, are you prepared hero? You will have to reach Starter Town to complete the quest'
+    state = '2'
+    prerequisite ='0'><!-- 0 = no prerequisite-->
+    <task current ='0' complete='1'/>
+  </quest>
+  
+  <quest
+  id='2'
+  name='Starter Town: Meet the people'
+  description='Talk to the Blacksmith, the Alchemist, and the Merchant'
+  state = '0'
+  prerequisite ='1'>
+    <!-- 0 = no prerequisite-->
+    <task current ='0' complete='1'/>
+    <task current ='0' complete='1'/>
+    <task current ='0' complete='1'/>
+  </quest>
+</quests>
